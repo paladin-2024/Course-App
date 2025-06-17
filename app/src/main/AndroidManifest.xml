@@ -13,10 +13,10 @@
         android:theme="@style/Theme.SimpleCourseApp"
         tools:targetApi="31">
         <activity
-            android:name=".IntroActivity"
+            android:name=".Activity.IntroActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
