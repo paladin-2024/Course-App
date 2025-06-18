@@ -32,7 +32,8 @@
                     android:id="@+id/imageView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/user_1" />
+                    app:srcCompat="@drawable/user_1"
+                    tools:ignore="MissingConstraints" />
 
                 <TextView
                     android:id="@+id/textView2"
@@ -75,7 +76,7 @@
                     android:background="@drawable/btn_background_1">
 
                     <ImageView
-                        android:id="@+id/imageView6"
+                        android:id="@+id/imageView6_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -83,7 +84,7 @@
                         app:srcCompat="@drawable/light_1" />
 
                     <ImageView
-                        android:id="@+id/imageView7"
+                        android:id="@+id/imageView7_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -95,7 +96,7 @@
                         tools:srcCompat="@drawable/btn_1" />
 
                     <TextView
-                        android:id="@+id/textView4"
+                        android:id="@+id/textView4_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
@@ -103,9 +104,9 @@
                         android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        app:layout_constraintEnd_toEndOf="@+id/imageView7"
-                        app:layout_constraintStart_toStartOf="@+id/imageView7"
-                        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+                        app:layout_constraintEnd_toEndOf="@+id/imageView7_1"
+                        app:layout_constraintStart_toStartOf="@+id/imageView7_1"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView7_1" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -116,7 +117,7 @@
                     android:background="@drawable/btn_background_2">
 
                     <ImageView
-                        android:id="@+id/imageView6"
+                        android:id="@+id/imageView6_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -124,7 +125,7 @@
                         app:srcCompat="@drawable/light_2" />
 
                     <ImageView
-                        android:id="@+id/imageView7"
+                        android:id="@+id/imageView7_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -136,7 +137,7 @@
                         tools:srcCompat="@drawable/btn_2" />
 
                     <TextView
-                        android:id="@+id/textView4"
+                        android:id="@+id/textView4_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
@@ -144,9 +145,9 @@
                         android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        app:layout_constraintEnd_toEndOf="@+id/imageView7"
-                        app:layout_constraintStart_toStartOf="@+id/imageView7"
-                        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+                        app:layout_constraintEnd_toEndOf="@+id/imageView7_2"
+                        app:layout_constraintStart_toStartOf="@+id/imageView7_2"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView7_2" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </LinearLayout>
 
@@ -166,7 +167,7 @@
                     android:background="@drawable/btn_background_3">
 
                     <ImageView
-                        android:id="@+id/imageView6"
+                        android:id="@+id/imageView6_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -174,7 +175,7 @@
                         app:srcCompat="@drawable/light_3" />
 
                     <ImageView
-                        android:id="@+id/imageView7"
+                        android:id="@+id/imageView7_3"
                         android:layout_width="64dp"
                         android:layout_height="64dp"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -186,7 +187,7 @@
                         tools:srcCompat="@drawable/btn_3" />
 
                     <TextView
-                        android:id="@+id/textView4"
+                        android:id="@+id/textView4_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
@@ -194,9 +195,9 @@
                         android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        app:layout_constraintEnd_toEndOf="@+id/imageView7"
-                        app:layout_constraintStart_toStartOf="@+id/imageView7"
-                        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+                        app:layout_constraintEnd_toEndOf="@+id/imageView7_3"
+                        app:layout_constraintStart_toStartOf="@+id/imageView7_3"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView7_3" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -207,7 +208,7 @@
                     android:background="@drawable/btn_background_4">
 
                     <ImageView
-                        android:id="@+id/imageView6"
+                        android:id="@+id/imageView6_4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -215,7 +216,7 @@
                         app:srcCompat="@drawable/light_4" />
 
                     <ImageView
-                        android:id="@+id/imageView7"
+                        android:id="@+id/imageView7_4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -227,7 +228,7 @@
                         tools:srcCompat="@drawable/btn_4" />
 
                     <TextView
-                        android:id="@+id/textView4"
+                        android:id="@+id/textView4_4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
@@ -235,9 +236,9 @@
                         android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        app:layout_constraintEnd_toEndOf="@+id/imageView7"
-                        app:layout_constraintStart_toStartOf="@+id/imageView7"
-                        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+                        app:layout_constraintEnd_toEndOf="@+id/imageView7_4"
+                        app:layout_constraintStart_toStartOf="@+id/imageView7_4"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView7_4" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </LinearLayout>
 
@@ -339,7 +340,7 @@
                     android:layout_weight="0.25">
 
                     <ImageView
-                        android:id="@+id/imageView9"
+                        android:id="@+id/imageView9_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -356,7 +357,7 @@
                     android:layout_weight="0.25">
 
                     <ImageView
-                        android:id="@+id/imageView9"
+                        android:id="@+id/imageView9_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -373,7 +374,7 @@
                     android:layout_weight="0.25">
 
                     <ImageView
-                        android:id="@+id/imageView9"
+                        android:id="@+id/imageView9_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -390,7 +391,7 @@
                     android:layout_weight="0.25">
 
                     <ImageView
-                        android:id="@+id/imageView9"
+                        android:id="@+id/imageView9_4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:layout_constraintBottom_toBottomOf="parent"
