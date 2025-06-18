@@ -5,7 +5,7 @@ public class CoursesDomain {
     private double price;
     private String picPath;
 
-    public CoursesDomain(String title, String picPath, double price) {
+    public CoursesDomain(String title, double price, String picPath) {
         this.title = title;
         this.price = price;
         this.picPath = picPath;
