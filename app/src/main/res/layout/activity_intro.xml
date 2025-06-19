@@ -5,6 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:background="@color/white"
     tools:context=".Activity.IntroActivity">
 
     <ImageView
@@ -13,6 +15,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/top_tight"
         tools:srcCompat="@drawable/top_tight" />
 
     <ImageView
@@ -21,7 +24,8 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:srcCompat="@drawable/bottom_left"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:srcCompat="@drawable/bottom_left" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -37,12 +41,12 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
         android:text="Elevate Your\n Learning Experience"
+        android:textAlignment="center"
+        android:textColor="@color/black"
         android:textSize="25sp"
         android:textStyle="bold"
-        android:textColor="@color/black"
-        android:textAlignment="center"
-        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />

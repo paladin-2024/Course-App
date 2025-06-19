@@ -1,12 +1,10 @@
 package com.example.simplecourseapp.Activity;
 
 import android.os.Bundle;
+import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -14,7 +12,6 @@ import com.example.simplecourseapp.Adapter.CoursesAdapter;
 import com.example.simplecourseapp.Domain.CoursesDomain;
 import com.example.simplecourseapp.R;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class CourseListActivity extends AppCompatActivity {
@@ -27,6 +24,9 @@ public class CourseListActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_course_list);
         initRecyclerView();
+        ImageView backbtn = findViewById(R.id.backBtn);
+        backbtn.setOnClickListener(v -> finish());
+
     }
 
     private void initRecyclerView() {
