@@ -42,7 +42,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
-                    android:text="Hi, Caleb"
+                    android:text="Hi, Nzabanita"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="bold"
