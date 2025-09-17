@@ -28,4 +28,10 @@
         android:icon="@drawable/edit_icon"
         />
 
+    <item
+        android:title="Settings"
+        android:id="@+id/setting"
+        android:icon="@drawable/settings_icon"
+        />
+
 </menu>
