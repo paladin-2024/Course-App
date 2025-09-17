@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Simple Course App</string>
+    <string name="m3_expressive_primary_fab_content_description">Edit course</string>
 </resources>
