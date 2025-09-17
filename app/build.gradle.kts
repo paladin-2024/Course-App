@@ -42,4 +42,8 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
     implementation("com.github.bumptech.glide:glide:4.12.0")
     implementation("androidx.core:core-splashscreen:1.0.0")
+    implementation("com.google.android.material:material:1.13.0")
+    implementation("androidx.compose.ui:ui:1.9.1")
+    implementation("androidx.compose.material:material:1.9.1")
+    implementation("androidx.compose.ui:ui-tooling-preview:1.9.1") 
 }
